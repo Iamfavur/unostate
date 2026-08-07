@@ -41,7 +41,7 @@ const App = () => {
             <span className="text-xl font-bold tracking-widest text-white">UNOSTATE</span>
           </div>
           <a href="#waitlist" className="hidden md:inline-block text-sm font-semibold text-orange-500 hover:text-orange-400 transition-colors">
-            Secure Your Spot
+            Request Beta
           </a>
         </div>
       </nav>
@@ -70,7 +70,7 @@ const App = () => {
             {submitted ? (
               <div className="p-4 rounded-lg bg-orange-500/10 border border-orange-500/30 text-orange-400 flex items-center justify-center gap-2">
                 <CheckCircle2 className="w-5 h-5" />
-                <span>You are on the priority list.</span>
+                <span>Our team will reach out shortly.</span>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
