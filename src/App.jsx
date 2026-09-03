@@ -38,7 +38,7 @@ const App = () => {
             <div className="w-8 h-8 rounded bg-gradient-to-br from-orange-500 to-orange-700 flex items-center justify-center shadow-[0_0_15px_rgba(249,115,22,0.5)]">
               <Scale className="w-5 h-5 text-white" />
             </div>
-            <span className="text-xl font-bold tracking-widest text-white">UNOSTATE</span>
+            <span className="text-xl font-bold tracking-widest text-white">UNOSTAT</span>
           </div>
           <a href="#waitlist" className="hidden md:inline-block text-sm font-semibold text-orange-500 hover:text-orange-400 transition-colors">
             Request Beta
@@ -62,7 +62,7 @@ const App = () => {
               </span>
             </h1>
             <p className="text-lg md:text-2xl text-neutral-400 mb-10 max-w-3xl mx-auto leading-relaxed">
-              UNOSTATE acts as your aggressive, automated defense shield. It intercepts bad contracts, hunts down hidden liabilities, and rewrites unfair terms before you ever sign your name.
+              UNOSTAT acts as your aggressive, automated defense shield. It intercepts bad contracts, hunts down hidden liabilities, and rewrites unfair terms before you ever sign your name.
             </p>
           </motion.div>
 
@@ -164,7 +164,7 @@ const App = () => {
       {/* 6. BEFORE & AFTER CONTRAST */}
       <section className="py-24 px-6 relative">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl md:text-5xl font-bold text-center mb-16">The Old Way vs. The UNOSTATE Way</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-center mb-16">The Old Way vs. The UNOSTAT Way</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Before */}
@@ -185,7 +185,7 @@ const App = () => {
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp} className="bg-gradient-to-br from-orange-900/20 to-neutral-950 border border-orange-500/30 p-8 rounded-2xl shadow-[0_0_30px_rgba(234,88,12,0.1)]">
               <div className="flex items-center gap-3 mb-6 text-orange-500">
                 <CheckCircle2 className="w-8 h-8" />
-                <h3 className="text-2xl font-bold text-white">With UNOSTATE</h3>
+                <h3 className="text-2xl font-bold text-white">With UNOSTAT</h3>
               </div>
               <ul className="space-y-4 text-neutral-300">
                 <li className="flex items-start gap-3"><span className="text-orange-500 mt-1">✓</span> Upload the contract and get answers in 2 seconds.</li>
@@ -203,7 +203,7 @@ const App = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20">
             <h2 className="text-4xl font-bold mb-6">Invisible Integration</h2>
-            <p className="text-xl text-neutral-400 max-w-2xl mx-auto">No clunky dashboards to learn. UNOSTATE lives inside the tools you already use, acting as a silent bodyguard for your inbox.</p>
+            <p className="text-xl text-neutral-400 max-w-2xl mx-auto">No clunky dashboards to learn. UNOSTAT lives inside the tools you already use, acting as a silent bodyguard for your inbox.</p>
           </div>
 
           <div className="flex flex-col md:flex-row items-center justify-between gap-8 relative">
@@ -218,7 +218,7 @@ const App = () => {
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp} className="flex flex-col items-center bg-orange-600/10 p-8 rounded-2xl border border-orange-500 w-full md:w-1/3 text-center shadow-[0_0_40px_rgba(234,88,12,0.2)] relative transform md:-translate-y-4">
               <div className="absolute -top-3 -right-3 w-6 h-6 bg-orange-500 rounded-full animate-ping opacity-75"></div>
               <ShieldAlert className="w-12 h-12 text-orange-500 mb-6" />
-              <h4 className="text-xl font-bold text-orange-500 mb-3">2. UNOSTATE Intercepts</h4>
+              <h4 className="text-xl font-bold text-orange-500 mb-3">2. UNOSTAT Intercepts</h4>
               <p className="text-neutral-300">Our engine scans the document before you even open it, flagging 3 highly toxic liability clauses.</p>
             </motion.div>
 
@@ -246,7 +246,7 @@ const App = () => {
                 <EyeOff className="w-5 h-5 text-orange-500" /> The Zero-Trust Privacy Vault
               </h4>
               <p className="text-neutral-400">
-                Your business deals are nobody's business. Contracts uploaded to UNOSTATE are processed in an isolated vault and immediately shredded. We never read your data, and we never use your contracts to train public AI models.
+                Your business deals are nobody's business. Contracts uploaded to UNOSTAT are processed in an isolated vault and immediately shredded. We never read your data, and we never use your contracts to train public AI models.
               </p>
             </div>
           </div>
@@ -259,7 +259,7 @@ const App = () => {
           </button>
           
           <div className="border-t border-neutral-800 pt-8 text-neutral-600 text-sm flex flex-col md:flex-row justify-between items-center">
-            <p>&copy; 2026 UNOSTATE LTD. Empowering small businesses globally.</p>
+            <p>&copy; 2026 UNOSTAT LTD. Empowering small businesses globally.</p>
             <div className="flex gap-4 mt-4 md:mt-0">
               <span className="hover:text-neutral-400 cursor-pointer">Privacy Policy</span>
               <span className="hover:text-neutral-400 cursor-pointer">Terms of Service</span>
